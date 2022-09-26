@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100&display=swap');
+.profimg {
+    border-radius: 50%;
+}
+.profile {
+    
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    margin-left: auto;
+    display: block;
+    
+}
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    background-image: url("../img/20220723_175110.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.maintext {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    
+}
+/*buttons*/
+.button {
+    border: none;
+    border-radius: 30px;
+    background: #202020;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+  } 
+.btndiv {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
